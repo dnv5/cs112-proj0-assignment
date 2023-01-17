@@ -1,7 +1,118 @@
 
 Project 0
-Name:
-Username:
-Student Id:
+Name: Dawson VanderLugt
+Username: dnv5
+Student Id: 1802259
 
 Step 3. -------------------------------------------
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+    unsigned BIG_NUMBER = 10000000;
+    string = "Dawson";
+    char = 'D';
+    double = 3.1415;
+    bool = false;
+    long = 0;
+    
+    return 0;
+}
+
+Step 4. -------------------------------------------
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+    unsigned BIG_NUMBER = 10000000;
+    string name = "Dawson";
+    char firstLetter = 'D';
+    double pi = 3.1415;
+    bool t_or_f = false;
+    long zero = 0;
+
+    cout << &BIG_NUMBER << endl;
+    cout << &name << endl;
+    cout << &firstLetter << endl;
+    cout << &pi << endl;
+    cout << &t_or_f << endl;
+    cout << &zero << endl;
+
+    return 0;
+}
+
+0x7fffffffde7c
+0x7fffffffde90
+D
+0x7fffffffde80
+0x7fffffffde7b
+0x7fffffffde88
+
+Step 5. -------------------------------------------
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+    int num = 37;
+
+    cout << dec << num << endl;
+    cout << oct << num << endl;
+    cout << hex << num << endl;
+
+    return 0;
+}
+
+37
+45
+25
+
+Step 6. -------------------------------------------
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+    float arr[20] = {};
+
+    cout << sizeof(arr[20]) << endl;
+
+    return 0;
+}
+
+4
+
+Step 7. -------------------------------------------
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+    float arr[20] = {};
+
+    cout << sizeof(arr[20]) << endl;
+
+    float *ptr = &arr[7];
+    *ptr = 17.771;  
+
+    cout << arr[7] << endl;
+    cout << *ptr << endl;
+
+    return 0;
+}
+
+4
+17.771
+17.771
